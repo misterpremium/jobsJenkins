@@ -1,0 +1,12 @@
+commit bae0c740ea7e0a3d68942a0d97ee98dd28d25184
+tree 62ac3bb71a56a5957b10b1cf9a379d4978d476e1
+parent 9a88bc76221f694fb69b96bd87188e768df0ed01
+author misterpremium <simbacat@hotmail.es> 2019-07-06 13:50:11 +0200
+committer misterpremium <simbacat@hotmail.es> 2019-07-06 13:50:11 +0200
+
+    Solved problem with static references
+
+
+
+:100644 100644 a7b0e0655b25bba9c0f39f7b7b5a7af9d73c9ed9 b70b60f98991af6934471dc9050d266f7d3a4338 M	WebContent/WEB-INF/lib/SQLpref.jar
+:100644 100644 8918eaaaad083c8f8fd62fdcff9f4781e72a572a 85ddd5c15898a879d7a7b864bf0546acf9b45b79 M	build/classes/servlet/Table.class

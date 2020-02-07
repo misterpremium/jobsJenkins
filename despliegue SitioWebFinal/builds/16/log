@@ -1,0 +1,32 @@
+Started by GitHub push by misterpremium
+Running as SYSTEM
+Ejecutando.en el espacio de trabajo /var/lib/jenkins/workspace/despliegue SitioWebFinal
+using credential 25eab80f-3e22-4fcc-a781-ff70ef28a238
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/misterpremium/SitioWebFinal # timeout=10
+Fetching upstream changes from https://github.com/misterpremium/SitioWebFinal
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/misterpremium/SitioWebFinal +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 21917fa7da3cfe9721ec1809defcabafc2fff2dd (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 21917fa7da3cfe9721ec1809defcabafc2fff2dd
+Commit message: "Update index.jsp"
+ > git rev-list --no-walk 5d1316d4fed536e43f8267ab52e2f34c4265ff0d # timeout=10
+[despliegue SitioWebFinal] $ /bin/sh -xe /tmp/jenkins3177608508678744946.sh
++ cd WebContent
++ cp -fr ../build/classes WEB-INF/
+cp: no se puede borrar 'WEB-INF/classes/lib/Count.class': Permiso denegado
+cp: no se puede borrar 'WEB-INF/classes/lib/PedirDato.class': Permiso denegado
+cp: no se puede borrar 'WEB-INF/classes/lib/commons-fileupload-1.3.3-javadoc.jar': Permiso denegado
+cp: no se puede borrar 'WEB-INF/classes/lib/commons-fileupload-1.3.3.jar': Permiso denegado
+cp: no se puede borrar 'WEB-INF/classes/servlet/Contar.class': Permiso denegado
+cp: no se puede borrar 'WEB-INF/classes/servlet/GetFile.class': Permiso denegado
+cp: no se puede borrar 'WEB-INF/classes/servlet/Log.class': Permiso denegado
+cp: no se puede borrar 'WEB-INF/classes/servlet/Table.class': Permiso denegado
+cp: no se puede borrar 'WEB-INF/classes/servlet/package-info.class': Permiso denegado
+Build step 'Ejecutar linea de comandos (shell)' marked build as failure
+Finished: FAILURE

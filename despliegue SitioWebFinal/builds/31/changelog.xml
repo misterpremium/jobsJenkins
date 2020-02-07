@@ -1,0 +1,11 @@
+commit 1992582f3f97a9bf39e2cd81753ff477168fa64c
+tree 3c800fa74f6b26c2c55a28a97da42574afcebc36
+parent 79379f93f1b5980041e4d8b915420357f83aff58
+author misterpremium <simbacat@hotmail.es> 2019-07-06 12:23:07 +0200
+committer misterpremium <simbacat@hotmail.es> 2019-07-06 12:23:07 +0200
+
+    Changes on SQLpref
+
+
+
+:100644 100644 f080e930aa9d4836b5ee31505fc5de29b4a6b398 2cb4388ef4351c95c2344a37308ed3cc6c1dd3fc M	WebContent/WEB-INF/lib/SQLpref.jar

@@ -1,0 +1,12 @@
+commit 8b017cd3865a3c566f19a2272d8cdd95549cfcaf
+tree 6ad468c015968959b8a9f777b15e5a6d9ca479b4
+parent 2376c6a14a24a628d003738c78818341925df33e
+author misterpremium <simbacat@hotmail.es> 2019-07-03 11:44:41 +0200
+committer misterpremium <simbacat@hotmail.es> 2019-07-03 11:44:41 +0200
+
+    Revert "Change db ip addres"
+
+    This reverts commit 740c0604cae127274599c446e2e38e02af3c2f97.
+
+
+:100644 100644 fe8623ecd9eef768b8b326d788a79a85024bdab8 03ec7e285dba7d6752b06124cb4bbb7d39d144dc M	SitioWebFinal/WebContent/WEB-INF/lib/SQLpref.jar

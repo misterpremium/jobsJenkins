@@ -1,0 +1,8 @@
+Lanzada por el usuario [8mha:////4IC+CeBtXZZpWzEU4mDcfCPOWfNnSRBM79viaCz3iz/eAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/dLi1CL93MziktSigqLU3MzSXACyDQByyAAAAA==[0mmisterpremium
+Running as SYSTEM
+Ejecutando.en el espacio de trabajo /var/lib/jenkins/workspace/Docker-amq
+[Docker-amq] $ /bin/sh -xe /tmp/jenkins1655013876430653229.sh
++ ssh pi@192.168.1.55 sudo docker pull misterpremium/jboss-amq-63
+Host key verification failed.
+Build step 'Ejecutar linea de comandos (shell)' marked build as failure
+Finished: FAILURE

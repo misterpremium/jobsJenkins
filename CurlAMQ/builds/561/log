@@ -1,0 +1,42 @@
+Ejecutado por el programador
+Running as SYSTEM
+Ejecutando.en el espacio de trabajo /var/lib/jenkins/workspace/CurlAMQ
+[CurlAMQ] $ /bin/sh -xe /tmp/jenkins4195754935695715474.sh
++ curl -ivk http://raspberrypidpm2.ddns.net/SitioWebFinal/ConnectionJMX?
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0*   Trying 88.17.72.65...
+* TCP_NODELAY set
+  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0* Connected to raspberrypidpm2.ddns.net (88.17.72.65) port 80 (#0)
+> GET /SitioWebFinal/ConnectionJMX? HTTP/1.1
+> Host: raspberrypidpm2.ddns.net
+> User-Agent: curl/7.52.1
+> Accept: */*
+> 
+< HTTP/1.1 200 
+< Date: Mon, 20 Jan 2020 09:00:11 GMT
+< Server: Apache/2.4.25 (Raspbian) SVN/1.9.5 mod_jk/1.2.46 OpenSSL/1.0.2r
+< Content-Type: text/html;charset=ISO-8859-1
+< Content-Length: 63
+< Set-Cookie: ROUTEID=.SitioWebFinal.raspberrypi02.AS; path=/
+< Set-Cookie: ROUTEID=.SitioWebFinal.raspberrypi02.AS; path=/
+< Set-Cookie: ROUTEID=.SitioWebFinal.raspberrypi02.AS; path=/
+< Set-Cookie: ROUTEID=.SitioWebFinal.raspberrypi02.AS; path=/
+< 
+{ [63 bytes data]
+* Curl_http_done: called premature == 0
+100    63  100    63    0     0      5      0  0:00:12  0:00:10  0:00:02    14
+* Connection #0 to host raspberrypidpm2.ddns.net left intact
+HTTP/1.1 200 
+Date: Mon, 20 Jan 2020 09:00:11 GMT
+Server: Apache/2.4.25 (Raspbian) SVN/1.9.5 mod_jk/1.2.46 OpenSSL/1.0.2r
+Content-Type: text/html;charset=ISO-8859-1
+Content-Length: 63
+Set-Cookie: ROUTEID=.SitioWebFinal.raspberrypi02.AS; path=/
+Set-Cookie: ROUTEID=.SitioWebFinal.raspberrypi02.AS; path=/
+Set-Cookie: ROUTEID=.SitioWebFinal.raspberrypi02.AS; path=/
+Set-Cookie: ROUTEID=.SitioWebFinal.raspberrypi02.AS; path=/
+
+Served at: /SitioWebFinal<h1> Test linea 39 </h1>
+<h1>End</h1>
+Finished: SUCCESS

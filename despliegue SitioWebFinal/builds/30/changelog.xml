@@ -1,0 +1,14 @@
+commit 79379f93f1b5980041e4d8b915420357f83aff58
+tree 48279ef73ae6920119c3881ef06e455880d03e18
+parent 4f11a0bcc22b33393f30128751a372d6eead2103
+author misterpremium <simbacat@hotmail.es> 2019-07-03 17:11:05 +0200
+committer misterpremium <simbacat@hotmail.es> 2019-07-03 17:11:05 +0200
+
+    Updated SQLpref.jar
+
+
+
+:100644 100644 13619e1e37ed90d5aa1903b04e4bfa5d4cfaf60f 5302df730ebfabd88501fbaf9992c45b214461a1 M	.project
+:100644 100644 e8c5c1e355058dc4949da6d44689c626e54fc48c a38cc823f6aacc804b4c2c4eb332a46be65b439a M	.settings/org.eclipse.wst.common.component
+:100644 100644 59499bce4a2bd51cba227b7c00fcf745b19c95a4 58630c02ef423cffd6dd6aafd946eb8512040c37 M	WebContent/META-INF/MANIFEST.MF
+:100644 100644 4ce4a3959a08c8406da0538173b18784cb9f8f5f f080e930aa9d4836b5ee31505fc5de29b4a6b398 M	WebContent/WEB-INF/lib/SQLpref.jar

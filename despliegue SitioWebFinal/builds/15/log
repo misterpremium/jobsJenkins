@@ -1,0 +1,25 @@
+Started by GitHub push by misterpremium
+Running as SYSTEM
+Ejecutando.en el espacio de trabajo /var/lib/jenkins/workspace/despliegue SitioWebFinal
+using credential 25eab80f-3e22-4fcc-a781-ff70ef28a238
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/misterpremium/SitioWebFinal # timeout=10
+Fetching upstream changes from https://github.com/misterpremium/SitioWebFinal
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/misterpremium/SitioWebFinal +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 5d1316d4fed536e43f8267ab52e2f34c4265ff0d (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 5d1316d4fed536e43f8267ab52e2f34c4265ff0d
+Commit message: "Update index.jsp"
+ > git rev-list --no-walk b3e839add85e9b4620138955dad8ef2779b8c571 # timeout=10
+[despliegue SitioWebFinal] $ /bin/sh -xe /tmp/jenkins5686535752881954550.sh
++ git clone https://github.com/misterpremium/SitioWebFinal.git
+Cloning into 'SitioWebFinal'...
+fatal: Out of memory, malloc failed (tried to allocate 63667450 bytes)
+fatal: index-pack failed
+Build step 'Ejecutar linea de comandos (shell)' marked build as failure
+Finished: FAILURE

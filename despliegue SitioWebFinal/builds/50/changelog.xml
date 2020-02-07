@@ -1,0 +1,12 @@
+commit 7f555da5c50696fc8223a5f1fb6002b2cc80b9bc
+tree 46b4edf7e83e0a83b9cc698eb85b74f87c5dd545
+parent 2fb15d901a8abbb6564c0539ea05fae66381a93b
+author misterpremium <simbacat@hotmail.es> 2019-08-21 08:57:21 +0200
+committer misterpremium <simbacat@hotmail.es> 2019-08-21 08:57:21 +0200
+
+    Addesd reciverJMX
+
+
+
+:100644 100644 0e80d6a7b593e0acd9d0838d9d4aa882997d8a04 d5b71b742181d12b163d8c230ea62b5470bc6865 M	.gitignore
+:000000 100644 0000000000000000000000000000000000000000 75bbc4376d4663a27dce7de66b074836170ffea5 A	build/classes/servlet/reciverJMX.class

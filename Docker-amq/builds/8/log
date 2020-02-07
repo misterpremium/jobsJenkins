@@ -1,0 +1,52 @@
+Lanzada por el usuario [8mha:////4IC+CeBtXZZpWzEU4mDcfCPOWfNnSRBM79viaCz3iz/eAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/dLi1CL93MziktSigqLU3MzSXACyDQByyAAAAA==[0mmisterpremium
+Running as SYSTEM
+Ejecutando.en el espacio de trabajo /var/lib/jenkins/workspace/Docker-amq
+[Docker-amq] $ /bin/sh -xe /tmp/jenkins4387883744383792480.sh
++ ssh pi@192.168.1.55 sudo docker pull misterpremium/jboss-amq-63
+Using default tag: latest
+latest: Pulling from misterpremium/jboss-amq-63
+00f17e0b37b0: Already exists
+305d73a95c8f: Already exists
+2507d403edeb: Already exists
+9e8473881e3c: Already exists
+2e84c1796dc8: Pulling fs layer
+1e4c55bb5dba: Pulling fs layer
+386bece000d3: Pulling fs layer
+d862b0156574: Pulling fs layer
+c91add2b82ed: Pulling fs layer
+d451905d7ef0: Pulling fs layer
+9b906df07e77: Pulling fs layer
+cc0043bd7960: Pulling fs layer
+d862b0156574: Waiting
+c91add2b82ed: Waiting
+d451905d7ef0: Waiting
+1e4c55bb5dba: Verifying Checksum
+1e4c55bb5dba: Download complete
+2e84c1796dc8: Verifying Checksum
+2e84c1796dc8: Download complete
+386bece000d3: Verifying Checksum
+386bece000d3: Download complete
+2e84c1796dc8: Pull complete
+1e4c55bb5dba: Pull complete
+d862b0156574: Verifying Checksum
+d862b0156574: Download complete
+c91add2b82ed: Verifying Checksum
+c91add2b82ed: Download complete
+d451905d7ef0: Verifying Checksum
+d451905d7ef0: Download complete
+386bece000d3: Pull complete
+d862b0156574: Pull complete
+c91add2b82ed: Pull complete
+d451905d7ef0: Pull complete
+9b906df07e77: Verifying Checksum
+9b906df07e77: Download complete
+cc0043bd7960: Verifying Checksum
+cc0043bd7960: Download complete
+9b906df07e77: Pull complete
+cc0043bd7960: Pull complete
+Digest: sha256:56160dd4962a191c198d8047da91116cda8e89e570a741e984018bf3e713f7b1
+Status: Downloaded newer image for misterpremium/jboss-amq-63:latest
++ ssh pi@192.168.1.55 sudo docker run -p 8161:8161 -p 61616:61616 misterpremium/jboss-amq-63
+standard_init_linux.go:207: exec user process caused "exec format error"
+Build step 'Ejecutar linea de comandos (shell)' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,22 @@
+commit c130d9e7e5b843c2b7ca3eb45cac4708d2dcdc09
+tree 7ee6c3bda8902dc1e935007c5971a8d35bf68865
+parent c4c85993db96a78db5d1886c2753c17496bdff3d
+author misterpremium <simbacat@hotmail.es> 2019-08-20 13:04:49 +0200
+committer GitHub <noreply@github.com> 2019-08-20 13:04:49 +0200
+
+    Delete Contar.class
+
+
+
+:100644 000000 adac3cdbb29b0e8e4d3a3864acb7feef78c1ab12 0000000000000000000000000000000000000000 D	build/Contar.class
+commit c4c85993db96a78db5d1886c2753c17496bdff3d
+tree f3fdd61239c9e352318efce2bb8668b1ef92bfb6
+parent 09939b75c859d28e6a2e1cc80137ee976d15edd9
+author misterpremium <simbacat@hotmail.es> 2019-08-20 13:04:41 +0200
+committer GitHub <noreply@github.com> 2019-08-20 13:04:41 +0200
+
+    Delete ConnectionJMX.class
+
+
+
+:100644 000000 49b53708b303dcbd0c637d024fa8327d7a8a9ad7 0000000000000000000000000000000000000000 D	build/ConnectionJMX.class

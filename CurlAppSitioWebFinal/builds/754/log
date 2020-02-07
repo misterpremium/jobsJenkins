@@ -1,0 +1,43 @@
+Ejecutado por el programador
+Running as SYSTEM
+Ejecutando.en el espacio de trabajo /var/lib/jenkins/workspace/CurlAppSitioWebFinal
+[CurlAppSitioWebFinal] $ /bin/sh -xe /tmp/jenkins1752928147930561851.sh
++ curl -ivk http://raspberrypidpm2.ddns.net/SitioWebFinal
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 88.17.72.227...
+* TCP_NODELAY set
+* Connected to raspberrypidpm2.ddns.net (88.17.72.227) port 80 (#0)
+> GET /SitioWebFinal HTTP/1.1
+> Host: raspberrypidpm2.ddns.net
+> User-Agent: curl/7.52.1
+> Accept: */*
+> 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0< HTTP/1.1 503 Service Unavailable
+< Date: Thu, 25 Apr 2019 19:28:00 GMT
+< Server: Apache/2.4.25 (Raspbian) SVN/1.9.5 mod_jk/1.2.46 OpenSSL/1.0.2r
+< Content-Length: 299
+< Connection: close
+< Content-Type: text/html; charset=iso-8859-1
+< 
+{ [299 bytes data]
+* Curl_http_done: called premature == 0
+100   299  100   299    0     0     46      0  0:00:06  0:00:06 --:--:--    73
+* Closing connection 0
+HTTP/1.1 503 Service Unavailable
+Date: Thu, 25 Apr 2019 19:28:00 GMT
+Server: Apache/2.4.25 (Raspbian) SVN/1.9.5 mod_jk/1.2.46 OpenSSL/1.0.2r
+Content-Length: 299
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>503 Service Unavailable</title>
+</head><body>
+<h1>Service Unavailable</h1>
+<p>The server is temporarily unable to service your
+request due to maintenance downtime or capacity
+problems. Please try again later.</p>
+</body></html>
+Finished: SUCCESS

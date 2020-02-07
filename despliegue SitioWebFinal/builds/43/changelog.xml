@@ -1,0 +1,14 @@
+commit 10ba78a8a4860fc267a78db6cfa752a1366a3f00
+tree 331c63b4b1049e9edd70baa372c53b298fdfcee4
+parent 74f1e6dbe5912093ddae8a29aee1c22ad59abbf8
+author misterpremium <simbacat@hotmail.es> 2019-08-19 12:08:10 +0200
+committer misterpremium <simbacat@hotmail.es> 2019-08-19 12:08:10 +0200
+
+    Updated application
+
+
+
+:100644 100644 fd2fac1fc32cda203fd8fb602dac79bba3cb0db3 716faba5505d727cd2931e6b076e3cfa0c8b2028 M	WebContent/META-INF/context.xml
+:100644 100644 9a536737ee79828af64c89c94604e7c6d0fd8b02 8afaa2fcdde0ed43c64c16d93502c5d523df6fbc M	WebContent/WEB-INF/lib/AMQ.jar
+:100644 100644 49b53708b303dcbd0c637d024fa8327d7a8a9ad7 2f4695a89360f32292ddec679bb405d430ebe79f M	build/classes/servlet/ConnectionJMX.class
+:100644 100644 d4d5fbef23f48fb6a95ccace4af895b6af1af805 8fba9e56f8442293d483ea2511871e335ba22762 M	src/servlet/ConnectionJMX.java

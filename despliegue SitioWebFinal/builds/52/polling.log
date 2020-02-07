@@ -1,0 +1,12 @@
+Started on 02-sep-2019 7:17:03
+Started by event from 140.82.115.69 ⇒ http://raspberrypidpm2.ddns.net:8080/github-webhook/ on lun sep 02 07:16:58 UTC 2019
+Using strategy: Default
+[poll] Last Built Revision: Revision 44b0b659d14e4b7f706a946b2f2eb55fa7079e0d (refs/remotes/origin/master)
+using credential 25eab80f-3e22-4fcc-a781-ff70ef28a238
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git ls-remote -h https://github.com/misterpremium/SitioWebFinal # timeout=10
+Found 1 remote heads on https://github.com/misterpremium/SitioWebFinal
+[poll] Latest remote head revision on refs/heads/master is: 4fc18a93046efc607ffe6e801cf1b2f3ef887d76
+Done. Took 1,8 Seg
+Changes found

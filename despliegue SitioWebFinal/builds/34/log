@@ -1,0 +1,67 @@
+Started by GitHub push by misterpremium
+Running as SYSTEM
+Ejecutando.en el espacio de trabajo /var/lib/jenkins/workspace/despliegue SitioWebFinal
+using credential 25eab80f-3e22-4fcc-a781-ff70ef28a238
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/misterpremium/SitioWebFinal # timeout=10
+Fetching upstream changes from https://github.com/misterpremium/SitioWebFinal
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/misterpremium/SitioWebFinal +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision bae0c740ea7e0a3d68942a0d97ee98dd28d25184 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f bae0c740ea7e0a3d68942a0d97ee98dd28d25184
+Commit message: "Solved problem with static references"
+ > git rev-list --no-walk 9a88bc76221f694fb69b96bd87188e768df0ed01 # timeout=10
+[despliegue SitioWebFinal] $ /bin/sh -xe /tmp/jenkins5140407018604423382.sh
++ cd WebContent
++ cp -fr ../build/classes WEB-INF/
++ jar -cvf SitioWebFinal.war META-INF WEB-INF docs index.jsp log.jsp
+manifiesto agregado
+ignorando entrada META-INF/
+agregando: META-INF/context.xml(entrada = 58) (salida = 60)(desinflado -3%)
+ignorando entrada META-INF/MANIFEST.MF
+agregando: WEB-INF/(entrada = 0) (salida = 0)(almacenado 0%)
+agregando: WEB-INF/classes/(entrada = 0) (salida = 0)(almacenado 0%)
+agregando: WEB-INF/classes/servlet/(entrada = 0) (salida = 0)(almacenado 0%)
+agregando: WEB-INF/classes/servlet/package-info.class(entrada = 113) (salida = 97)(desinflado 14%)
+agregando: WEB-INF/classes/servlet/GetFile.class(entrada = 2243) (salida = 1091)(desinflado 51%)
+agregando: WEB-INF/classes/servlet/Contar.class(entrada = 1248) (salida = 624)(desinflado 50%)
+agregando: WEB-INF/classes/servlet/Table.class(entrada = 2248) (salida = 1131)(desinflado 49%)
+agregando: WEB-INF/classes/servlet/Log.class(entrada = 1798) (salida = 947)(desinflado 47%)
+agregando: WEB-INF/classes/lib/(entrada = 0) (salida = 0)(almacenado 0%)
+agregando: WEB-INF/classes/lib/Count.class(entrada = 1925) (salida = 1027)(desinflado 46%)
+agregando: WEB-INF/classes/lib/PedirDato.class(entrada = 2047) (salida = 1111)(desinflado 45%)
+agregando: WEB-INF/classes/lib/commons-fileupload-1.3.3-javadoc.jar(entrada = 321494) (salida = 300698)(desinflado 6%)
+agregando: WEB-INF/classes/lib/commons-fileupload-1.3.3.jar(entrada = 70604) (salida = 61236)(desinflado 13%)
+agregando: WEB-INF/web.xml(entrada = 672) (salida = 261)(desinflado 61%)
+agregando: WEB-INF/lib/(entrada = 0) (salida = 0)(almacenado 0%)
+agregando: WEB-INF/lib/javax.servlet.jar(entrada = 132002) (salida = 123703)(desinflado 6%)
+agregando: WEB-INF/lib/javax.servlet-3.0.jar(entrada = 83586) (salida = 73194)(desinflado 12%)
+agregando: WEB-INF/lib/SQLpref.jar(entrada = 6838) (salida = 6003)(desinflado 12%)
+agregando: WEB-INF/lib/Essential.jar(entrada = 1721) (salida = 1506)(desinflado 12%)
+agregando: WEB-INF/lib/mariadb-java-client-2.1.0.jar(entrada = 495712) (salida = 463273)(desinflado 6%)
+agregando: docs/(entrada = 0) (salida = 0)(almacenado 0%)
+agregando: docs/ID.jsp(entrada = 6244) (salida = 1076)(desinflado 82%)
+agregando: docs/nohup.out(entrada = 266) (salida = 207)(desinflado 22%)
+agregando: docs/video.jsp(entrada = 553) (salida = 352)(desinflado 36%)
+agregando: docs/media/(entrada = 0) (salida = 0)(almacenado 0%)
+agregando: docs/media/prueba.mp4(entrada = 63718173) (salida = 63663442)(desinflado 0%)
+agregando: docs/form.html(entrada = 528) (salida = 268)(desinflado 49%)
+agregando: docs/js/(entrada = 0) (salida = 0)(almacenado 0%)
+agregando: docs/js/script.js(entrada = 66) (salida = 59)(desinflado 10%)
+agregando: docs/js/scriptmap.js(entrada = 242) (salida = 160)(desinflado 33%)
+agregando: docs/form.jsp(entrada = 518) (salida = 267)(desinflado 48%)
+agregando: docs/css/(entrada = 0) (salida = 0)(almacenado 0%)
+agregando: docs/css/estilos.css(entrada = 2224) (salida = 718)(desinflado 67%)
+agregando: docs/recoger.jsp(entrada = 1058) (salida = 451)(desinflado 57%)
+agregando: index.jsp(entrada = 3274) (salida = 1517)(desinflado 53%)
+agregando: log.jsp(entrada = 569) (salida = 357)(desinflado 37%)
++ cp -f SitioWebFinal.war /opt/tomcat90/webapps/
++ mv -f SitioWebFinal.war /opt/tomcat91/webapps/
++ cd -
+/var/lib/jenkins/workspace/despliegue SitioWebFinal
+Finished: SUCCESS

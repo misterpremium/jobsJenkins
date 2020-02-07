@@ -1,0 +1,13 @@
+commit 09939b75c859d28e6a2e1cc80137ee976d15edd9
+tree 4bdb5c67bb132355715cafeb3db33c64424f1c58
+parent 0b9676ed9628439c804b69458e29cce45779d6db
+author misterpremium <simbacat@hotmail.es> 2019-08-20 12:41:29 +0200
+committer misterpremium <simbacat@hotmail.es> 2019-08-20 12:41:29 +0200
+
+    Modified AMQ.jar
+
+
+
+:100644 100644 9275779928599ca5edea52767f6af20e82b0c809 0e80d6a7b593e0acd9d0838d9d4aa882997d8a04 M	.gitignore
+:100644 100644 eaa8f883d19a30f63bf2a06b7f41717e2834bf60 be7009cbb57307b887316380272a643488e21803 M	WebContent/META-INF/context.xml
+:100644 100644 8afaa2fcdde0ed43c64c16d93502c5d523df6fbc b0d0758d7b470797665298bed368105e9f200fa2 M	WebContent/WEB-INF/lib/AMQ.jar

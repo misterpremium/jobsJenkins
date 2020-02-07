@@ -1,0 +1,47 @@
+Ejecutado por el programador
+Running as SYSTEM
+Ejecutando.en el espacio de trabajo /var/lib/jenkins/workspace/CurlAppSitioWebFinal
+[CurlAppSitioWebFinal] $ /bin/sh -xe /tmp/jenkins5126491711646940368.sh
++ curl -ivk http://raspberrypidpm2.ddns.net/SitioWebFinal
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 0.0.0.0...
+* TCP_NODELAY set
+* Connected to raspberrypidpm2.ddns.net (127.0.0.1) port 80 (#0)
+> GET /SitioWebFinal HTTP/1.1
+> Host: raspberrypidpm2.ddns.net
+> User-Agent: curl/7.52.1
+> Accept: */*
+> 
+< HTTP/1.1 404 Not Found
+< Date: Sun, 13 Oct 2019 00:28:00 GMT
+< Server: Jetty(9.4.z-SNAPSHOT)
+< X-Content-Type-Options: nosniff
+< Cache-Control: must-revalidate,no-cache,no-store
+< Content-Type: text/html;charset=iso-8859-1
+< Content-Length: 328
+< 
+{ [328 bytes data]
+* Curl_http_done: called premature == 0
+100   328  100   328    0     0   3942      0 --:--:-- --:--:-- --:--:--  4000
+* Connection #0 to host raspberrypidpm2.ddns.net left intact
+HTTP/1.1 404 Not Found
+Date: Sun, 13 Oct 2019 00:28:00 GMT
+Server: Jetty(9.4.z-SNAPSHOT)
+X-Content-Type-Options: nosniff
+Cache-Control: must-revalidate,no-cache,no-store
+Content-Type: text/html;charset=iso-8859-1
+Content-Length: 328
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<title>Error 404 Not Found</title>
+</head>
+<body><h2>HTTP ERROR 404</h2>
+<p>Problem accessing /SitioWebFinal. Reason:
+<pre>    Not Found</pre></p><hr><a href="http://eclipse.org/jetty">Powered by Jetty:// 9.4.z-SNAPSHOT</a><hr/>
+
+</body>
+</html>
+Finished: SUCCESS

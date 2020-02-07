@@ -1,0 +1,57 @@
+Lanzada por el usuario [8mha:////4IC+CeBtXZZpWzEU4mDcfCPOWfNnSRBM79viaCz3iz/eAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/dLi1CL93MziktSigqLU3MzSXACyDQByyAAAAA==[0mmisterpremium
+Running as SYSTEM
+Ejecutando.en el espacio de trabajo /var/lib/jenkins/workspace/despliegue SitioWebFinal
+using credential 25eab80f-3e22-4fcc-a781-ff70ef28a238
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/misterpremium/SitioWebFinal # timeout=10
+Fetching upstream changes from https://github.com/misterpremium/SitioWebFinal
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/misterpremium/SitioWebFinal +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision b3e839add85e9b4620138955dad8ef2779b8c571 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f b3e839add85e9b4620138955dad8ef2779b8c571
+Commit message: "Merge branch 'master' of https://github.com/misterpremium/SitioWebFinal"
+ > git rev-list --no-walk b3e839add85e9b4620138955dad8ef2779b8c571 # timeout=10
+[despliegue SitioWebFinal] $ /bin/sh -xe /tmp/jenkins879106774830298216.sh
++ git clone https://github.com/misterpremium/SitioWebFinal.git
+Cloning into 'SitioWebFinal'...
+Checking out files:   8% (21/241)   Checking out files:   9% (22/241)   Checking out files:  10% (25/241)   Checking out files:  11% (27/241)   Checking out files:  12% (29/241)   Checking out files:  13% (32/241)   Checking out files:  14% (34/241)   Checking out files:  15% (37/241)   Checking out files:  16% (39/241)   Checking out files:  16% (40/241)   Checking out files:  17% (41/241)   Checking out files:  18% (44/241)   Checking out files:  19% (46/241)   Checking out files:  19% (48/241)   Checking out files:  20% (49/241)   Checking out files:  21% (51/241)   Checking out files:  22% (54/241)   Checking out files:  23% (56/241)   Checking out files:  24% (58/241)   Checking out files:  25% (61/241)   Checking out files:  26% (63/241)   Checking out files:  27% (66/241)   Checking out files:  27% (67/241)   Checking out files:  28% (68/241)   Checking out files:  29% (70/241)   Checking out files:  30% (73/241)   Checking out files:  31% (75/241)   Checking out files:  32% (78/241)   Checking out files:  33% (80/241)   Checking out files:  34% (82/241)   Checking out files:  35% (85/241)   Checking out files:  36% (87/241)   Checking out files:  37% (90/241)   Checking out files:  38% (92/241)   Checking out files:  39% (94/241)   Checking out files:  40% (97/241)   Checking out files:  41% (99/241)   Checking out files:  42% (102/241)   Checking out files:  43% (104/241)   Checking out files:  44% (107/241)   Checking out files:  45% (109/241)   Checking out files:  46% (111/241)   Checking out files:  47% (114/241)   Checking out files:  48% (116/241)   Checking out files:  49% (119/241)   Checking out files:  50% (121/241)   Checking out files:  51% (123/241)   Checking out files:  52% (126/241)   Checking out files:  53% (128/241)   Checking out files:  54% (131/241)   Checking out files:  55% (133/241)   Checking out files:  56% (135/241)   Checking out files:  57% (138/241)   Checking out files:  58% (140/241)   Checking out files:  59% (143/241)   Checking out files:  60% (145/241)   Checking out files:  61% (148/241)   Checking out files:  62% (150/241)   Checking out files:  63% (152/241)   Checking out files:  64% (155/241)   Checking out files:  65% (157/241)   Checking out files:  65% (158/241)   Checking out files:  66% (160/241)   Checking out files:  67% (162/241)   Checking out files:  68% (164/241)   Checking out files:  69% (167/241)   Checking out files:  70% (169/241)   Checking out files:  71% (172/241)   Checking out files:  72% (174/241)   Checking out files:  73% (176/241)   Checking out files:  74% (179/241)   Checking out files:  75% (181/241)   Checking out files:  76% (184/241)   Checking out files:  77% (186/241)   Checking out files:  78% (188/241)   Checking out files:  79% (191/241)   Checking out files:  80% (193/241)   Checking out files:  81% (196/241)   Checking out files:  82% (198/241)   Checking out files:  83% (201/241)   Checking out files:  84% (203/241)   Checking out files:  85% (205/241)   Checking out files:  85% (207/241)   Checking out files:  86% (208/241)   Checking out files:  87% (210/241)   Checking out files:  88% (213/241)   Checking out files:  89% (215/241)   Checking out files:  90% (217/241)   Checking out files:  91% (220/241)   Checking out files:  92% (222/241)   Checking out files:  92% (224/241)   Checking out files:  93% (225/241)   Checking out files:  94% (227/241)   Checking out files:  95% (229/241)   Checking out files:  96% (232/241)   Checking out files:  97% (234/241)   Checking out files:  98% (237/241)   Checking out files:  99% (239/241)   Checking out files: 100% (241/241)   Checking out files: 100% (241/241), done.
++ cd SitioWebFinal/WebContent
++ jar -cvf SitioWebFinal.war META-INF WEB-INF docs index.jsp log.jsp
+manifiesto agregado
+ignorando entrada META-INF/
+agregando: META-INF/context.xml(entrada = 58) (salida = 60)(desinflado -3%)
+ignorando entrada META-INF/MANIFEST.MF
+agregando: WEB-INF/(entrada = 0) (salida = 0)(almacenado 0%)
+agregando: WEB-INF/web.xml(entrada = 672) (salida = 261)(desinflado 61%)
+agregando: WEB-INF/lib/(entrada = 0) (salida = 0)(almacenado 0%)
+agregando: WEB-INF/lib/javax.servlet.jar(entrada = 132002) (salida = 123703)(desinflado 6%)
+agregando: WEB-INF/lib/javax.servlet-3.0.jar(entrada = 83586) (salida = 73194)(desinflado 12%)
+agregando: WEB-INF/lib/SQLpref.jar(entrada = 5815) (salida = 5146)(desinflado 11%)
+agregando: WEB-INF/lib/Essential.jar(entrada = 1721) (salida = 1506)(desinflado 12%)
+agregando: WEB-INF/lib/mariadb-java-client-2.1.0.jar(entrada = 495712) (salida = 463273)(desinflado 6%)
+agregando: docs/(entrada = 0) (salida = 0)(almacenado 0%)
+agregando: docs/ID.jsp(entrada = 6244) (salida = 1076)(desinflado 82%)
+agregando: docs/nohup.out(entrada = 266) (salida = 207)(desinflado 22%)
+agregando: docs/video.jsp(entrada = 553) (salida = 352)(desinflado 36%)
+agregando: docs/media/(entrada = 0) (salida = 0)(almacenado 0%)
+agregando: docs/media/prueba.mp4(entrada = 63718173) (salida = 63663442)(desinflado 0%)
+agregando: docs/form.html(entrada = 528) (salida = 268)(desinflado 49%)
+agregando: docs/js/(entrada = 0) (salida = 0)(almacenado 0%)
+agregando: docs/js/script.js(entrada = 66) (salida = 59)(desinflado 10%)
+agregando: docs/js/scriptmap.js(entrada = 242) (salida = 160)(desinflado 33%)
+agregando: docs/form.jsp(entrada = 518) (salida = 267)(desinflado 48%)
+agregando: docs/css/(entrada = 0) (salida = 0)(almacenado 0%)
+agregando: docs/css/estilos.css(entrada = 2224) (salida = 718)(desinflado 67%)
+agregando: docs/recoger.jsp(entrada = 1058) (salida = 451)(desinflado 57%)
+agregando: index.jsp(entrada = 3003) (salida = 1378)(desinflado 54%)
+agregando: log.jsp(entrada = 560) (salida = 355)(desinflado 36%)
++ mv -f SitioWebFinal.war /opt/tomcat90/webapps/
++ mv -f SitioWebFinal.war /opt/tomcat91/webapps/
+mv: no se puede efectuar `stat' sobre 'SitioWebFinal.war': No existe el fichero o el directorio
+Build step 'Ejecutar linea de comandos (shell)' marked build as failure
+Finished: FAILURE

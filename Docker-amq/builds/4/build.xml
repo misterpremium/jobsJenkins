@@ -1,0 +1,47 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters/>
+      <parameterDefinitionNames class="empty-list"/>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <org.jenkinsci.plugins.registry.notification.webhook.dockerhub.DockerHubWebHookCause plugin="dockerhub-notification@2.4.0">
+            <pushNotification class="org.jenkinsci.plugins.registry.notification.webhook.dockerhub.DockerHubPushNotification">
+              <webHookPayload class="org.jenkinsci.plugins.registry.notification.webhook.dockerhub.DockerHubWebHookPayload">
+                <json>{&quot;push_data&quot;:{&quot;pushed_at&quot;:1580999962,&quot;images&quot;:[],&quot;tag&quot;:&quot;latest&quot;,&quot;pusher&quot;:&quot;misterpremium&quot;},&quot;callback_url&quot;:&quot;https://registry.hub.docker.com/u/misterpremium/jboss-amq-63/hook/23abaj42j2ace4504cfea5fgah55gbdcd/&quot;,&quot;repository&quot;:{&quot;status&quot;:&quot;Active&quot;,&quot;description&quot;:&quot;Redhat jboss-amq 64 1.4&quot;,&quot;is_trusted&quot;:false,&quot;full_description&quot;:&quot;&quot;,&quot;repo_url&quot;:&quot;https://hub.docker.com/r/misterpremium/jboss-amq-63&quot;,&quot;owner&quot;:&quot;misterpremium&quot;,&quot;is_official&quot;:false,&quot;is_private&quot;:false,&quot;name&quot;:&quot;jboss-amq-63&quot;,&quot;namespace&quot;:&quot;misterpremium&quot;,&quot;star_count&quot;:0,&quot;comment_count&quot;:0,&quot;date_created&quot;:1580722510,&quot;dockerfile&quot;:&quot;# We are basing our builder image on openshift s2i-core-rhel7 image\nFROM  registry.access.redhat.com/jboss-amq-6/amq63-openshift:1.4\n\n# Software versions being used inside the builder\nENV active-mq=6.3\n\nRUN mkdir /tmp/src &amp;&amp; mkdir /tmp/src/bin &amp;&amp; mkdir /tmp/src/conf\n#Custom assemble script\nCOPY ./etc/s2i/bin/assemble /usr/local/sbin/assemble\nCOPY ./etc/s2i/bin/common.sh /usr/local/sbin/common.sh\nCOPY ./etc/s2i/bin/install-common.sh /usr/local/sbin/install-common.sh\nCOPY ./etc/s2i/bin/run /usr/local/sbin/run\nCOPY ./etc/s2i/bin/save-artifacts /usr/local/sbin/save-artifacts\nADD  ./etc/bin/startup.sh /tmp/src/bin/\nADD \&quot;./etc/conf/*\&quot; \&quot;/tmp/src/conf/\&quot;\n# Expose port 8161\nEXPOSE 8161\n\n# Expose port 61616\n\nEXPOSE 5672 5671 1883 8883 61613 61612 61616 61617\nCMD [\&quot;/tmp/src/bin/startup.sh\&quot;]\n&quot;,&quot;repo_name&quot;:&quot;misterpremium/jboss-amq-63&quot;}}</json>
+                <received>1581000066113</received>
+                <pushNotifications>
+                  <org.jenkinsci.plugins.registry.notification.webhook.dockerhub.DockerHubPushNotification reference="../../.."/>
+                </pushNotifications>
+              </webHookPayload>
+              <repoName>misterpremium/jboss-amq-63</repoName>
+              <pushedAt>2020-02-06 14:39:22.0 UTC</pushedAt>
+              <callbackHandler class="org.jenkinsci.plugins.registry.notification.webhook.dockerhub.DockerHubWebHookPayload$1">
+                <val_-dockerHubPushNotification reference="../.."/>
+                <outer-class reference="../../webHookPayload"/>
+              </callbackHandler>
+              <callbackUrl>https://registry.hub.docker.com/u/misterpremium/jboss-amq-63/hook/23abaj42j2ace4504cfea5fgah55gbdcd/</callbackUrl>
+            </pushNotification>
+          </org.jenkinsci.plugins.registry.notification.webhook.dockerhub.DockerHubWebHookCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>6833</queueId>
+  <timestamp>1581000074937</timestamp>
+  <startTime>1581000074964</startTime>
+  <result>FAILURE</result>
+  <duration>522</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/workspace/Docker-amq</workspace>
+  <hudsonVersion>2.219</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

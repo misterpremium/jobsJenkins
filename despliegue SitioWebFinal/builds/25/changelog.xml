@@ -1,0 +1,13 @@
+commit 2376c6a14a24a628d003738c78818341925df33e
+tree 9d3e63f70eee357bd1bbee29dcfaf3be39762f97
+parent 740c0604cae127274599c446e2e38e02af3c2f97
+author misterpremium <simbacat@hotmail.es> 2019-07-03 11:42:14 +0200
+committer misterpremium <simbacat@hotmail.es> 2019-07-03 11:42:14 +0200
+
+    Updated SQLpref and log.java
+
+
+
+:100644 100644 931ee7f4bbf359edbaab8626bfbf37fb85919999 fe8623ecd9eef768b8b326d788a79a85024bdab8 M	WebContent/WEB-INF/lib/SQLpref.jar
+:100644 100644 19900660774a07aed1e238e494401b23673184fa 7a8bbfc0e39b7de7551f1c25df1f2008893b193a M	build/classes/servlet/Log.class
+:100644 100644 04389ce6b86d0253420a77e7dda3b8caea893da9 a78327d3b1bdad818e37611ff00f8e848b6660e2 M	src/servlet/Log.java

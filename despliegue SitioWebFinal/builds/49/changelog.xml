@@ -1,0 +1,11 @@
+commit 2fb15d901a8abbb6564c0539ea05fae66381a93b
+tree f8f3d86a8e8fdbc083555472a87f7706c978a25d
+parent 88503855e105e7d72f29ed8bd82be0a9be00b63a
+author misterpremium <simbacat@hotmail.es> 2019-08-20 19:14:59 +0200
+committer misterpremium <simbacat@hotmail.es> 2019-08-20 19:14:59 +0200
+
+    updated
+
+
+
+:100644 100644 98477a3654116241e4cd498be6920b3090b577b5 2b7a2f857dd06549dfebfebdba0ff7000b10dd01 M	WebContent/docs/connection.jsp

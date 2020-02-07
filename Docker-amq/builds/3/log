@@ -1,0 +1,8 @@
+Triggered by push of misterpremium/jboss-amq-63 to DockerHub@registry.hub.docker.com
+Running as SYSTEM
+Ejecutando.en el espacio de trabajo /var/lib/jenkins/workspace/Docker-amq
+[Docker-amq] $ /bin/sh -xe /tmp/jenkins7703597448271082672.sh
++ ssh pi@192.168.1.55 sudo docker pull misterpremium/jboss-amq-63
+Host key verification failed.
+Build step 'Ejecutar linea de comandos (shell)' marked build as failure
+Finished: FAILURE

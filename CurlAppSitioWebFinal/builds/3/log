@@ -1,0 +1,12 @@
+Lanzada por el usuario [8mha:////4IC+CeBtXZZpWzEU4mDcfCPOWfNnSRBM79viaCz3iz/eAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/dLi1CL93MziktSigqLU3MzSXACyDQByyAAAAA==[0mmisterpremium
+Running as SYSTEM
+Ejecutando.en el espacio de trabajo /var/lib/jenkins/workspace/CurlAppSitioWebFinal
+[CurlAppSitioWebFinal] $ /bin/sh -xe /tmp/jenkins5790289284828544344.sh
++ curl -ivk http://raspberypidpm2.ddns.net/SitioWebFinal
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Could not resolve host: raspberypidpm2.ddns.net
+* Closing connection 0
+curl: (6) Could not resolve host: raspberypidpm2.ddns.net
+Build step 'Ejecutar linea de comandos (shell)' marked build as failure
+Finished: FAILURE

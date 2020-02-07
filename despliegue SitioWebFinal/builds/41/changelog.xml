@@ -1,0 +1,13 @@
+commit 74f1e6dbe5912093ddae8a29aee1c22ad59abbf8
+tree 5c2a48db62177375816ea5779f7240c8d0fadb04
+parent 8e57ffb9f838c5fd0830ad932dc1d91469c852ad
+author misterpremium <simbacat@hotmail.es> 2019-08-16 13:02:41 +0200
+committer misterpremium <simbacat@hotmail.es> 2019-08-16 13:09:55 +0200
+
+    Modified AMQ.jar and ConectionJMX.java
+
+
+
+:100644 100644 d2c2586a63cff27ef8710acdd7f2a3485c61f138 15049ebe92934a64a7d23d61c0c7e0f5132ff889 M	.classpath
+:100644 100644 6eb0fba4e03771af40343960722de5991b63ae7b 9a536737ee79828af64c89c94604e7c6d0fd8b02 M	WebContent/WEB-INF/lib/AMQ.jar
+:100644 100644 34e53e340b194ab98dfc62113646fd1b26b181e5 d4d5fbef23f48fb6a95ccace4af895b6af1af805 M	src/servlet/ConnectionJMX.java

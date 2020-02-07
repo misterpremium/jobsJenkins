@@ -1,0 +1,13 @@
+Lanzada por el usuario [8mha:////4IC+CeBtXZZpWzEU4mDcfCPOWfNnSRBM79viaCz3iz/eAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/dLi1CL93MziktSigqLU3MzSXACyDQByyAAAAA==[0mmisterpremium
+Running as SYSTEM
+Ejecutando.en el espacio de trabajo /var/lib/jenkins/workspace/Docker-amq
+[Docker-amq] $ /bin/sh -xe /tmp/jenkins8190911595712524299.sh
++ ssh pi@192.168.1.55 sudo docker pull misterpremium/jboss-amq-63
+Using default tag: latest
+latest: Pulling from misterpremium/jboss-amq-63
+Digest: sha256:56160dd4962a191c198d8047da91116cda8e89e570a741e984018bf3e713f7b1
+Status: Image is up to date for misterpremium/jboss-amq-63:latest
++ ssh pi@192.168.1.55 sudo docker run -p 8161:8161 -p 61616:61616 misterpremium/jboss-amq-63
+standard_init_linux.go:207: exec user process caused "exec format error"
+Build step 'Ejecutar linea de comandos (shell)' marked build as failure
+Finished: FAILURE

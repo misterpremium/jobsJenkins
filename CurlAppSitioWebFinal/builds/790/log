@@ -1,0 +1,12 @@
+Ejecutado por el programador
+Running as SYSTEM
+Ejecutando.en el espacio de trabajo /var/lib/jenkins/workspace/CurlAppSitioWebFinal
+[CurlAppSitioWebFinal] $ /bin/sh -xe /tmp/jenkins7282408927302759882.sh
++ curl -ivk http://raspberrypidpm2.ddns.net/SitioWebFinal
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Could not resolve host: raspberrypidpm2.ddns.net
+* Closing connection 0
+curl: (6) Could not resolve host: raspberrypidpm2.ddns.net
+Build step 'Ejecutar linea de comandos (shell)' marked build as failure
+Finished: FAILURE

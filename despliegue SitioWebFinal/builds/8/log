@@ -1,0 +1,23 @@
+Lanzada por el usuario [8mha:////4IC+CeBtXZZpWzEU4mDcfCPOWfNnSRBM79viaCz3iz/eAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/dLi1CL93MziktSigqLU3MzSXACyDQByyAAAAA==[0mmisterpremium
+Running as SYSTEM
+Ejecutando.en el espacio de trabajo /var/lib/jenkins/workspace/despliegue SitioWebFinal
+using credential 25eab80f-3e22-4fcc-a781-ff70ef28a238
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/misterpremium/SitioWebFinal # timeout=10
+Fetching upstream changes from https://github.com/misterpremium/SitioWebFinal
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/misterpremium/SitioWebFinal +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision b3e839add85e9b4620138955dad8ef2779b8c571 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f b3e839add85e9b4620138955dad8ef2779b8c571
+Commit message: "Merge branch 'master' of https://github.com/misterpremium/SitioWebFinal"
+ > git rev-list --no-walk b3e839add85e9b4620138955dad8ef2779b8c571 # timeout=10
+[despliegue SitioWebFinal] $ /bin/sh -xe /tmp/jenkins1249738839764090742.sh
++ git clone https://github.com/misterpremium/SitioWebFinal.git
+fatal: destination path 'SitioWebFinal' already exists and is not an empty directory.
+Build step 'Ejecutar linea de comandos (shell)' marked build as failure
+Finished: FAILURE

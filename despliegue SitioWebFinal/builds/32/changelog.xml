@@ -1,0 +1,13 @@
+commit ad243655a342f05527385dfd1f99c906f5d81def
+tree 65f7e39cff05d4d718e6f22ba519101590c86af1
+parent 1992582f3f97a9bf39e2cd81753ff477168fa64c
+author misterpremium <simbacat@hotmail.es> 2019-07-06 13:32:18 +0200
+committer misterpremium <simbacat@hotmail.es> 2019-07-06 13:32:18 +0200
+
+    Update SQLpref
+
+
+
+:100644 100644 58630c02ef423cffd6dd6aafd946eb8512040c37 275bbb5efe10cdeaef0cfeeaac967eac653ad746 M	WebContent/META-INF/MANIFEST.MF
+:100644 100644 2cb4388ef4351c95c2344a37308ed3cc6c1dd3fc 970eb53178b9c9442bc30a12b4b8c41e9a3a4f92 M	WebContent/WEB-INF/lib/SQLpref.jar
+:100644 100644 85ddd5c15898a879d7a7b864bf0546acf9b45b79 8918eaaaad083c8f8fd62fdcff9f4781e72a572a M	build/classes/servlet/Table.class
